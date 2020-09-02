@@ -201,7 +201,7 @@ class ImageCropper extends PureComponent<IProps, IState> {
             fittedSize.height = areaHeight;
           }
         } else if (width < height) {
-          var ratio = areaWidth / width;
+          const ratio = areaWidth / width;
           fittedSize.width = areaWidth;
           fittedSize.height = height * ratio;
         } else if (width === height) {
