@@ -59,7 +59,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
-  image: {},
+  image: {
+    resizeMode: 'cover',
+  },
 });
 
 class ImageViewer extends Component<IProps> {
